@@ -1,4 +1,3 @@
-# Product-Recommendation-System-for-Ecommerce-website
 # Product Recommendation System for E-commerce Website
 
 This project implements a product recommendation system using machine learning algorithms. The main goal is to analyze product data and recommend items based on Bayesian Logistic Regression, Ridge Regression, and K-Means clustering.
