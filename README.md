@@ -17,8 +17,3 @@ This system is designed to provide personalized product recommendations for user
   - **Ridge Regression**: Reduces overfitting in linear models.
   - **K-Means Clustering**: Segments products into clusters for similar items.
 - **Data Visualization**: Displays relationships between features and clusters.
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/repositoryname.git
