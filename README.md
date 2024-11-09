@@ -32,7 +32,7 @@ Compared actual and predicted ratings to gauge the model’s performance.
 Generated top-K recommendations for each user by selecting items with the highest predicted ratings.
 Tailored suggestions based on user history, providing a personalized experience.
 
-*Insights**
+**Insights**
 Popularity Model: Provides the same product recommendations to all users based on global popularity, regardless of individual preferences.
 Collaborative Filtering Model: Delivers personalized recommendations based on past user behavior, making it more suitable for users with interaction history.
 
