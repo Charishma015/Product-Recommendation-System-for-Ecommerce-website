@@ -48,10 +48,17 @@ The collaborative filtering model outperforms in providing personalized recommen
 
 **File structure**
 Product recommendation System/
+
 ├── app.py
+
 ├── static/
+
 │   └── style.css
+
 └── templates/
+
     ├── index.html
+    
     └── recommendations.html
+    
 
