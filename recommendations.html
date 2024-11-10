@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Product Recommendations</h1>
+
+    {% if recommendations is none %}
+        <p>No recommendations available. Try selecting a different method or user ID.</p>
+    {% else %}
+        <h2>Recommendations:</h2>
+        <ul>
+            {% for index, recommendation in recommendations.iterrows() %}
+                <li>Product ID: {{ recommendation['productId'] }} | Score: {{ recommendation['score'] }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
