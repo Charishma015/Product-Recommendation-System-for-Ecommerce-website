@@ -45,3 +45,13 @@ Collaborative Filtering Model: Delivers personalized recommendations based on pa
 
 The popularity-based model is useful for general recommendations, particularly for new users with limited or no data.
 The collaborative filtering model outperforms in providing personalized recommendations, especially effective for users with significant past interactions.
+
+**File structure**
+Product recommendation System/
+├── app.py
+├── static/
+│   └── style.css
+└── templates/
+    ├── index.html
+    └── recommendations.html
+
