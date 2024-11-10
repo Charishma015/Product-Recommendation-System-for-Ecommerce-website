@@ -53,12 +53,12 @@ Product recommendation System/
 
 ├── static/
 
-│   └── style.css
+│   └── style. css
 
 └── templates/
 
-    ├── index.html
+    ├── index. html
     
-    └── recommendations.html
+    └── recommendations. html
     
 
